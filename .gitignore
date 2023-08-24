@@ -1,0 +1,4 @@
+.env
+AWS*
+__pycache__/
+*.docx

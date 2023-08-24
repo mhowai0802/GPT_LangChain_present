@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91940f34-016e-4d89-a88a-de45d610096d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LangChain_wechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LangChain_wechat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-specs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/movie_summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-specs/currency_converter_api.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-specs/email_sender.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-specs/email_sender_replit.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/news_summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/singleton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/rainfall_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/env_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conversation-log-sample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/example_processing_log_for_currency_conversion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/twilio-function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/twilio-service-backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/hkt_bot_builder_llm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nltk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prompts/whatsapp_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.log" beforeDir="false" afterPath="$PROJECT_DIR$/run.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/bot_builder_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/chat_bot_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/twilio_whatsapp_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/twilio_whtsapp_new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/wechat/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/wechat/bridge/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/wechat/bridge/context.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/wechat/bridge/reply.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/wechat/channel/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/wechat/channel/wechatcomapp_channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/wechat/channel/wechatcomapp_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/wechat/channel/wechatcomapp_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/wechat/chat_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/wechat/wechat_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/summary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_ai_db_integration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_azure_openai.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_azure_openai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_create_db_local.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_huggingface_hub.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_redis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_twilio_whatsapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/circumference_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/currency_conversion_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/google_search_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/human_request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/pythagoras_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/venv/Lib/site-packages/wechatpy/crypto/__init__.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/venv/Lib/site-packages/wechatpy/crypto/base.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/venv/Lib/site-packages/wechatpy/crypto/cryptography.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/venv/Lib/site-packages/wechatpy/enterprise/crypto.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2TN6BBVo1pVdzKCS3T8It2IFFzh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Pycharm/GPT_LangChain_present&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Pycharm\GPT_LangChain_present" />
+      <recent name="C:\Users\user\Desktop\Pycharm\GPT_LangChain_present\tools" />
+      <recent name="C:\Users\user\Desktop\Github\GPT_LangChain_integration\tests" />
+      <recent name="C:\Users\user\Desktop\Github\GPT_LangChain_integrated" />
+      <recent name="C:\Users\user\Desktop\Github\GPT_LangChain_integrated\tools" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Pycharm\GPT_LangChain_present" />
+      <recent name="C:\Users\user\Desktop\Pycharm\GPT_LangChain_present\tests" />
+      <recent name="C:\Users\user\Desktop\Github\GPT_LangChain_integration\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.api">
+    <configuration name="api" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LangChain_wechat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (GPT_LangChain_integration)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH=".env" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_azure_openai" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LangChain_wechat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (GPT_LangChain_integration)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH=".env" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_azure_openai.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.api" />
+      <item itemvalue="Python.test_azure_openai" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91940f34-016e-4d89-a88a-de45d610096d" name="Changes" comment="" />
+      <created>1690871052812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690871052812</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

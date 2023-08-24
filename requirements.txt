@@ -1,0 +1,9 @@
+Flask==2.3.2
+Flask_Cors==4.0.0
+langchain==0.0.271
+pandas==2.0.3
+Requests==2.31.0
+selenium==4.11.2
+python-dotenv
+openai
+chromedriver_autoinstaller
