@@ -10,6 +10,6 @@
 - OPENAI_API_KEY={OWN_API_KEY}__
 - GPT_VERSION=gpt-35-turbo__
 
-<video src='https://www.youtube.com/watch?v=ieCwR7zoK1g' width=180/>
 
+https://github.com/mhowai0802/GPT_LangChain_present/assets/91776863/9e8a975a-b749-4e41-b56a-c0ef9bbd4efa
 
