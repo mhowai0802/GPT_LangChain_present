@@ -1,26 +1,28 @@
-# Use the official Python base image
-FROM python:3.11-slim
+FROM python:3.11
 
-# copy the requirements file into the image
 COPY ./requirements.txt /app/requirements.txt
 
-# switch working directory
 WORKDIR /app
 
+RUN apt-get update; apt-get clean
 
+RUN apt-get install -y wget
+
+RUN apt-get install -y gnupg
+
+RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list
+
+RUN apt-get update && apt-get -y install google-chrome-stable
 
 RUN pip install --upgrade pip
 
-# install the dependencies and packages in the requirements file
 RUN pip install -r requirements.txt
 
-# copy every content from the local file to the image
 COPY . /app
 
-# configure the container to run in an executed manner
 ENTRYPOINT [ "python" ]
 
-# Start the application
 CMD ["api.py"]
 
 EXPOSE 5001

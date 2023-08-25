@@ -6,13 +6,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
+
 def movie_summary(input):
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
-    chrome_path = r"chromedriver"
-    service = Service(executable_path='./chromedriver.exe')
-    driver = webdriver.Chrome(options=chrome_options,service=service)
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument("window-size=1024,768")
+    service = Service(executable_path='./chromedriver')
+    driver = webdriver.Chrome(options=chrome_options, service=service)
     driver.get('https://hkmovie6.com/showing')
     time.sleep(10)
     master = []
@@ -28,6 +31,7 @@ def movie_summary(input):
             break
     df = pd.DataFrame(master).sort_values(by='Movie_rating', ascending=False).head(3)
     return df["Movie_name"].tolist()
+
 
 movie_summary_tool = Tool(
     name="movie_summary",

@@ -5,69 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91940f34-016e-4d89-a88a-de45d610096d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/LangChain_wechat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LangChain_wechat.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-specs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/movie_summary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-specs/currency_converter_api.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-specs/email_sender.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-specs/email_sender_replit.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/news_summary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/log.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/singleton.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/rainfall_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/env_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conversation-log-sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/example_processing_log_for_currency_conversion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/twilio-function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/twilio-service-backup.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/hkt_bot_builder_llm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nltk.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prompts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prompts/whatsapp_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.log" beforeDir="false" afterPath="$PROJECT_DIR$/run.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/bot_builder_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/chat_bot_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/twilio_whatsapp_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/twilio_whtsapp_new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/wechat/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/wechat/bridge/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/wechat/bridge/context.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/wechat/bridge/reply.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/wechat/channel/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/wechat/channel/wechatcomapp_channel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/wechat/channel/wechatcomapp_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/wechat/channel/wechatcomapp_message.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/wechat/chat_message.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/wechat/wechat_service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/summary.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ai_db_integration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_azure_openai.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_azure_openai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_create_db_local.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_huggingface_hub.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_redis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_twilio_whatsapp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/circumference_tool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/currency_conversion_tool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/google_search_tool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/human_request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/network.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/pythagoras_tool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/movie_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/movie_summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/news_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/news_summary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,17 +60,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Pycharm/GPT_LangChain_present&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Github/GPT_LangChain_present&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Github\GPT_LangChain_present" />
       <recent name="C:\Users\user\Desktop\Pycharm\GPT_LangChain_present" />
       <recent name="C:\Users\user\Desktop\Pycharm\GPT_LangChain_present\tools" />
       <recent name="C:\Users\user\Desktop\Github\GPT_LangChain_integration\tests" />
       <recent name="C:\Users\user\Desktop\Github\GPT_LangChain_integrated" />
-      <recent name="C:\Users\user\Desktop\Github\GPT_LangChain_integrated\tools" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\Pycharm\GPT_LangChain_present" />

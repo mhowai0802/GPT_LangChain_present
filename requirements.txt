@@ -6,4 +6,3 @@ Requests==2.31.0
 selenium==4.11.2
 python-dotenv
 openai
-chromedriver_autoinstaller
