@@ -9,3 +9,5 @@
 - OPENAI_API_BASE={OWN_BASE}
 - OPENAI_API_KEY={OWN_API_KEY}__
 - GPT_VERSION=gpt-35-turbo__
+
+https://www.youtube.com/watch?v=ieCwR7zoK1g
