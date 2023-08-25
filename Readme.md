@@ -1,5 +1,7 @@
 ### docker image
 docker pull mhowai0802/langchain
+docker run -d -p 5001:5001 langchain
+
 ### apikey can be obtained on Azure OpenAI
 .env
 - OPENAI_API_TYPE=azure
